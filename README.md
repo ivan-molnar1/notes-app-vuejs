@@ -11,7 +11,6 @@ Build a fully functional notes application that demonstrates your proficiency in
 - TypeScript
 - Pinia state management
 - UI component library integration
-- Responsive and accessible design
 - Form validation
 - Component architecture
 - Unit testing
@@ -58,13 +57,6 @@ Document your choice and rationale in your submission.
 - ⬜ **Routing**: Use Vue Router for navigation between views
 - ⬜ **Composables**: Create reusable composition functions
 - ⬜ **UI Library Integration**: Use your chosen UI library components
-- ⬜ **Responsive Design**: Works seamlessly on mobile, tablet, and desktop
-- ⬜ **Accessibility**: Implement WCAG 2.1 Level AA standards
-  - Proper ARIA labels
-  - Keyboard navigation
-  - Screen reader support
-  - Focus management
-  - Color contrast requirements
 - ⬜ **Component Architecture**: Well-structured, reusable components
 - ⬜ **Testing**: Write unit tests for store, composables, and components
 - ⬜ **Error Handling**: Implement proper error handling and user feedback
@@ -202,43 +194,7 @@ json-server --watch db.json --port 3001
 ### Option 2: Use In-Memory Fallback
 The API service automatically falls back to in-memory storage for development.
 
-## ♿ Accessibility Requirements
 
-Your implementation must meet WCAG 2.1 Level AA standards:
-
-### Keyboard Navigation
-- All interactive elements accessible via keyboard
-- Visible focus indicators
-- Logical tab order
-- Keyboard shortcuts for common actions (optional)
-
-### Screen Readers
-- Proper semantic HTML
-- ARIA labels for non-semantic elements
-- ARIA live regions for dynamic content
-- Meaningful alt text for images (if any)
-
-### Visual Design
-- Color contrast ratio of at least 4.5:1 for normal text
-- Color contrast ratio of at least 3:1 for large text
-- Don't rely solely on color to convey information
-- Text resizable up to 200% without loss of functionality
-
-### Forms
-- Clear labels for all form fields
-- Error messages associated with fields
-- Required field indicators
-- Clear validation feedback
-
-## 📱 Responsive Design Requirements
-
-Your application must be fully responsive:
-
-- **Mobile** (320px - 767px): Single column layout, touch-friendly targets
-- **Tablet** (768px - 1023px): Optimized for medium screens
-- **Desktop** (1024px+): Full-featured layout
-
-Test on multiple devices and screen sizes.
 
 ## 📋 Assessment Checklist
 
@@ -251,8 +207,6 @@ Before submitting, ensure:
 - [ ] Form validation works with character limits
 - [ ] Category filtering functions correctly
 - [ ] Notes sorted by date (newest first)
-- [ ] Responsive design works on all screen sizes
-- [ ] Accessibility requirements met (WCAG 2.1 AA)
 - [ ] Unit tests written and passing
 - [ ] Code follows ESLint rules (`npm run lint`)
 - [ ] Application runs without errors (`npm run dev`)
@@ -296,8 +250,6 @@ Before submitting, ensure:
 - [Vitest Documentation](https://vitest.dev/)
 - [Vue Router Documentation](https://router.vuejs.org/)
 - [Vue.js Style Guide](https://vuejs.org/style-guide/)
-- [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Vue Accessibility Guide](https://vuejs.org/guide/best-practices/accessibility.html)
 
 ## 📄 License
 

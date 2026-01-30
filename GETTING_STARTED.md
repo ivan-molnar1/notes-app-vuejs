@@ -23,7 +23,7 @@ Familiarize yourself with the provided structure:
 
 ### Step 2: Analyze Requirements
 
-Read the `README.md` carefully to understand the functional and technical requirements, especially regarding **accessibility** and **responsive design**.
+Read the `README.md` carefully to understand the functional and technical requirements.
 
 ## 🔨 Phase 2: Implementation
 
@@ -45,17 +45,15 @@ Implement a reusable composable for form validation.
 
 ### 3. Components
 
-Implement the logic and template for the following components using your chosen **UI Library**. Ensure they are accessible and responsive.
+Implement the logic and template for the following components using your chosen **UI Library**.
 
 - **NoteItem.vue**: Display a single note with actions (edit, delete).
 - **NoteList.vue**: Render the list of notes, handling loading/error/empty states.
 - **CategoryFilter.vue**: UI for filtering notes by category.
 - **NoteForm.vue**: A form for creating and updating notes, integrating validation and error handling.
 
-## 🎨 Phase 3: UI & Accessibility
+## 🎨 Phase 3: UI
 
-- **Responsive Design**: Ensure the layout adapts to mobile, tablet, and desktop screens.
-- **Accessibility**: Verify that your app is usable via keyboard and screen readers (ARIA labels, focus management).
 - **Styling**: Use your UI library's theming or custom CSS to create a polished look.
 
 ## 🧪 Phase 4: Testing
@@ -74,7 +72,7 @@ Run tests with `npm run test:unit`.
 - Filter by category.
 - verify sorting.
 - Test form validation boundaries.
-- Verify responsive behavior on different viewport sizes.
+
 
 ### Code Quality
 - Run `npm run lint` to check for style issues.
@@ -85,6 +83,6 @@ Run tests with `npm run test:unit`.
 
 1. **Commit** your changes to your forked repository.
 2. **Push** to GitHub.
-3. Review your **SUBMISSION.md** (create this file) to document your design decisions, especially compliance with accessibility standards and UI library choice.
+3. Review your **SUBMISSION.md** (create this file) to document your design decisions and UI library choice.
 
 Good luck!
